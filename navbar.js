@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 <ul>
                     <li><a href="index.html">Start</a></li>
                     <li><a href="projekt.html">Projekt</a></li>
-                    <li><a href="valteknik.html">Välfärdsteknik</a></li>
+                    <li><a href="tes.html">Tes</a></li>
                     <li><a href="pix.html">PIX</a></li>
                     <li><a href="matilda.html">Matilda</a></li>
                     <li><a href="treserva.html">Treserva-appen</a></li>
