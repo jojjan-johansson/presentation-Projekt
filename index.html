@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="sv">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Välkommen</title>
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Systemteamet – utveckling och kvalitet</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
     <script defer src="navbar.js"></script>
 </head>
 <body>
@@ -13,119 +14,125 @@
     <div id="navbar"></div>
 </header>
 
-<main>
-    <h2>Välkommen till Kvalitets och utvecklingsenheten</h2>
+<main class="vt-wrapper">
 
-    <p> Knapp 1, Eye of the tiger = intro</p>
-    <p> Knapp 2, Rocky = utgångsmusik</p>
+    <header class="vt-pagehead">
+        <h1>Systemteamet – en förutsättning för kvalitet och trygghet</h1>
+        <p class="vt-lead">
+            Digital utveckling sker inte av sig själv. Bakom varje förbättring finns planering,
+            prioriteringar och långsiktigt arbete som sällan syns – men som är avgörande för verksamheten.
+        </p>
+    </header>
 
-    <!-- Dold spelare -->
-    <audio id="player" preload="none"></audio>
+    <!-- Bild (mindre storlek) -->
+    <section class="vt-card system-hero">
+    <figure style="text-align:center; margin:0;">
+        <img src="img/system.png" alt="Systemteamet">
+    </figure>
+</section>
 
-    <div style="margin: 1.5rem 0; display:flex; gap:10px; flex-wrap:wrap;">
+    <section class="vt-card">
+        <h2>Från en person – till ett hållbart team</h2>
 
-        <!-- INTRO + EYE -->
-        <button id="comboBtn"
-            style="background: var(--primary); color:#000; border:none; padding: 12px 16px; border-radius: 10px; font-weight: 700; cursor: pointer;">
-            ▶ Intro → Eye of the Tiger
-        </button>
+        <p>
+            För drygt 1,5 år sedan utfördes det arbete vi idag gör som ett team av fyra – av <strong>en enda person</strong>.
+            Förvaltning, support, utveckling, delaktighet i upphandlingar, driftansvar, digitalisering och omvärldsbevakning låg på samma funktion.
+        </p>
 
-        <!-- ROCKY -->
-        <button id="rockyBtn"
-             style="background: var(--primary); color:#000; border:none; padding: 12px 16px; border-radius: 10px; font-weight:700; cursor:pointer;">
-             ▶ Rocky
-        </button>
+        <p>
+            Det var <strong>för mycket arbete</strong> för en person och det skapade en <strong>stor sårbarhet</strong>.
+            Arbetsbelastningen var hög, tempot var konstant och risken för avbrott blev större än vad som är rimligt i en verksamhet
+            som är beroende av fungerande system varje dag.
+        </p>
 
-        <!-- STOP -->
-        <button id="stopBtn"
-            style="background:#444; color:var(--text); border:none; padding: 12px 16px; border-radius: 10px; font-weight:700; cursor:pointer;">
-            ■ Stoppa
-        </button>
+        <p>
+            Idag är vi fyra personer. Det innebär att vi har gått från ett personberoende arbetssätt till en mer stabil och hållbar struktur –
+            och det är först nu vi på riktigt kan arbeta långsiktigt och strategiskt, istället för att enbart släcka bränder.
+        </p>
+    </section>
 
-        <span id="status" style="align-self:center; color:rgba(241,241,241,0.8); margin-left:10px;">
-            Pausat
-        </span>
-    </div>
+    <section class="vt-card">
+        <h2>Förvaltning av samtliga system – ett kontinuerligt uppdrag</h2>
 
-    <p><em>"Teamwork"</em></p>
+        <p>
+            Systemteamet ansvarar för <strong>förvaltningen av samtliga system</strong>. Det innebär att säkerställa att systemen fungerar,
+            är säkra, är uppdaterade och stödjer verksamheten i vardagen.
+        </p>
 
-    <img src="img/team.png" alt="Team"
-         style="max-width:100%; height:auto; border-radius:8px;" />
+        <p>
+            Samtidigt behöver vi hela tiden <strong>bygga om och anpassa systemen parallellt</strong> utifrån nya krav.
+            När lagar och föreskrifter förändras måste det ofta omsättas i praktiken i systemen:
+            nya funktioner, nya rutiner och uppdateringar av både <strong>paragrafer</strong> och <strong>lagtexter</strong>.
+        </p>
+
+        <p>
+            Och det är inte bara lagändringar. När organisationen förändras – som när vi gått över till <strong>sektorer</strong> –
+            måste systemens struktur hänga med. Namn, enheter, roller, behörigheter och flöden behöver uppdateras och byggas om.
+            Det är sådant som få tänker på, men som måste göras för att systemen ska vara korrekta, aktuella och rättssäkra.
+        </p>
+    </section>
+
+    <section class="vt-card">
+        <h2>Parallellt arbete – varje dag</h2>
+
+        <p>
+            Utveckling och förbättring sker inte i ett vakuum. Vi arbetar parallellt med många spår samtidigt, exempelvis:
+        </p>
+
+        <ul>
+            <li>Support till verksamheten – lösenord, låsta dokument och akuta behov.</li>
+            <li>Driftansvar och stabilitet i systemen.</li>
+            <li>Deltagande i upphandlingar och kravställning.</li>
+            <li>Förvaltning, konfiguration och implementering.</li>
+            <li>Digitalisering – ta bort papperslappar och Excel-listor och flytta processer in i systemen.</li>
+            <li>Utbildning av personal samt framtagande av rutiner, manualer och lathundar.</li>
+            <li>Omvärldsbevakning samt deltagande i nätverk och ledningsgrupper.</li>
+        </ul>
+
+        <p>
+            Tekniken utvecklas i raketfart och kraven förändras löpande. Därför behöver vi både hålla det som finns stabilt
+            och samtidigt utveckla framåt – stegvis och med kvalitet.
+        </p>
+    </section>
+
+    <section class="vt-card">
+        <h2>Agilt arbetssätt – stegvis förbättring med tydlig nytta</h2>
+
+        <p>
+            Vi arbetar agilt. Det betyder att vi prioriterar det som ger <strong>störst nytta först</strong> och gärna skördar
+            lågt hängande frukt där vi snabbt kan förenkla vardagen. Samtidigt bygger vi långsiktigt hållbara lösningar.
+        </p>
+
+        <p>
+            När förutsättningar förändras kan vi justera riktning utan att tappa fokus – men vi släpper aldrig kvalitet, säkerhet
+            och stabilitet.
+        </p>
+    </section>
+
+    <section class="vt-card">
+        <h2>Vårt mål – varför vi gör allt detta</h2>
+
+        <p>
+            Allt detta arbete gör vi för att <strong>underlätta för personalen</strong> som gör det närmsta, viktigaste jobbet i verksamheten:
+            mötet med omsorgstagaren – varje dag.
+        </p>
+
+        <p>
+            När systemen fungerar, när manuellt dubbelarbete försvinner och när processerna blir tydliga och digitala,
+            då frigörs tid och energi där den behövs mest: i omsorgen.
+        </p>
+
+        <p>
+            Ytterst handlar vårt uppdrag om omsorgstagaren. Det är <strong>för dem vi arbetar</strong>.
+            Det är de som ska få <strong>god vård, trygghet och guldkant på livet</strong>.
+        </p>
+    </section>
+
 </main>
 
 <footer>
     <p>© 2025 Johanna Johansson – Ljusdals kommun</p>
 </footer>
-
-<script>
-const player = document.getElementById("player");
-const comboBtn = document.getElementById("comboBtn");
-const rockyBtn = document.getElementById("rockyBtn");
-const stopBtn = document.getElementById("stopBtn");
-const statusEl = document.getElementById("status");
-
-const comboTracks = [
-    { src: "audio/Intro.m4a", label: "Intro" },
-    { src: "audio/eye-of-the-tiger.m4a", label: "Eye of the Tiger" }
-];
-
-let currentIndex = 0;
-let mode = null;
-
-function setStatus(text) {
-    statusEl.textContent = text;
-}
-
-function play(src, label) {
-    player.src = src;
-    player.load();
-    player.play().then(() => {
-        setStatus("Spelar: " + label);
-    }).catch(err => {
-        setStatus("Klicka igen om ljudet blockeras.");
-        console.error(err);
-    });
-}
-
-player.addEventListener("ended", () => {
-    if (mode === "combo") {
-        currentIndex++;
-        if (currentIndex < comboTracks.length) {
-            play(comboTracks[currentIndex].src, comboTracks[currentIndex].label);
-        } else {
-            mode = null;
-            currentIndex = 0;
-            setStatus("Klart ✅");
-        }
-    } else {
-        mode = null;
-        setStatus("Klart ✅");
-    }
-});
-
-comboBtn.addEventListener("click", () => {
-    player.pause();
-    player.currentTime = 0;
-    currentIndex = 0;
-    mode = "combo";
-    play(comboTracks[0].src, comboTracks[0].label);
-});
-
-rockyBtn.addEventListener("click", () => {
-    player.pause();
-    player.currentTime = 0;
-    mode = "rocky";
-    play("audio/Rocky.m4a", "Rocky");
-});
-
-stopBtn.addEventListener("click", () => {
-    player.pause();
-    player.currentTime = 0;
-    currentIndex = 0;
-    mode = null;
-    setStatus("Stoppad");
-});
-</script>
 
 </body>
 </html>

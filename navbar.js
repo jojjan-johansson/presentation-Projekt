@@ -5,12 +5,10 @@ document.addEventListener("DOMContentLoaded", () => {
             <nav>
                 <ul>
                     <li><a href="index.html">Start</a></li>
-                    
-                    
-                    <li><a href="kvalitet.html">Staben</a></li>
+                    <li><a href="projekt.html">Projekt</a></li>
                     <li><a href="valteknik.html">Välfärdsteknik</a></li>
-                    <li><a href="mas.html">Kvalitet</a></li>
-                    <li><a href="system.html">System</a></li>
+                    <li><a href="pix.html">PIX</a></li>
+                    <li><a href="matilda.html">Matilda</a></li>
                     <li><a href="treserva.html">Treserva-appen</a></li>
                     <li><a href="framtid.html">Framtiden</a></li>
                 </ul>
