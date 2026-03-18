@@ -10,7 +10,9 @@ document.addEventListener("DOMContentLoaded", () => {
                     <li><a href="pix.html">PIX</a></li>
                     <li><a href="matilda.html">Matilda</a></li>
                     <li><a href="treserva.html">Treserva-appen</a></li>
+                    <li><a href="webben.html">Treserva i webben</a></li>
                     <li><a href="framtid.html">Framtiden</a></li>
+                    
                 </ul>
             </nav>
         </header>
