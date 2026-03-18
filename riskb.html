@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riskbedömning</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <script defer src="navbar.js?v=2"></script>
+
+    <style>
+        .risk-card {
+            background-color: #111;
+            border-left: 4px solid #7ad7c4;
+            padding: 20px;
+            margin-bottom: 25px;
+            border-radius: 8px;
+        }
+
+        .risk-card h3 {
+            margin-top: 0;
+            color: #7ad7c4;
+        }
+
+        .risk-list {
+            margin-top: 10px;
+            padding-left: 0;
+            list-style: none;
+        }
+
+        .risk-list li {
+            margin-bottom: 6px;
+        }
+
+        .risk-list li::before {
+            content: "– ";
+            color: #7ad7c4;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div id="navbar"></div>
+</header>
+
+<main>
+    <h2>Stöd för riskbedömningar</h2>
+
+    <section class="quality-section">
+
+        <div class="risk-card">
+            <h3>PIX</h3>
+            <p>
+                Personalen som idag skapar deltagarlistor manuellt registrerar istället närvaro direkt i Treserva.
+                Personal som skapar och fyller i listor för produkter (mat, fika m.m.) lägger även detta direkt i systemet.
+            </p>
+            <ul class="risk-list">
+                <li>Inga listor hanteras eller skickas manuellt</li>
+                <li>Treserva behandlar hela flödet automatiskt</li>
+                <li>Gäller även HAB-ersättning kopplat till närvaro</li>
+                <li>Ingen manuell hantering för avgiftshandläggare</li>
+            </ul>
+        </div>
+
+        <div class="risk-card">
+            <h3>Matilda</h3>
+            <p>
+                Processen kring matdistribution digitaliseras helt.
+            </p>
+            <ul class="risk-list">
+                <li>Inga manuella Excel-listor skickas från centralköket</li>
+                <li>Ingen manuell registrering av produkter i Treserva</li>
+                <li>Avgiftshandläggare slipper manuell hantering</li>
+                <li>Hela flödet sker automatiskt i systemet</li>
+            </ul>
+        </div>
+
+        <div class="risk-card">
+            <h3>Treserva mobil-app – fas 1</h3>
+            <p>
+                Ett mobilt verktyg som ger användaren en förenklad spegelbild av Treserva.
+            </p>
+            <ul class="risk-list">
+                <li>Skicka meddelanden</li>
+                <li>Läsa och skriva anteckningar</li>
+                <li>Skapa avvikelser</li>
+                <li>Tillgång till information direkt i verksamheten</li>
+            </ul>
+        </div>
+
+        <div class="risk-card">
+            <h3>Treserva mobil-app – fas 2</h3>
+            <p>
+                Digitala signeringslistor ersätter fysiska listor.
+            </p>
+            <ul class="risk-list">
+                <li>Sjuksköterskor skapar digitala listor</li>
+                <li>Signering sker direkt i mobil-appen</li>
+                <li>Inloggning via användarnamn och lösenord</li>
+                <li>Delegerad personal signerar utdelning av medicin</li>
+            </ul>
+        </div>
+
+        <div class="risk-card">
+            <h3>Treserva webb</h3>
+            <p>
+                Handläggare får ett mer dynamiskt och effektivt arbetsflöde.
+            </p>
+            <ul class="risk-list">
+                <li>Färre steg i utredningsprocesser</li>
+                <li>Tydligare struktur</li>
+                <li>Snabbare handläggning</li>
+            </ul>
+        </div>
+
+        <div class="risk-card">
+            <h3>Digitala medicinskåp</h3>
+            <p>
+                Hantering av medicinskåp digitaliseras.
+            </p>
+            <ul class="risk-list">
+                <li>Öppnas via TES mobil-app</li>
+                <li>Spårbarhet på vem som öppnar</li>
+                <li>Ökad säkerhet</li>
+            </ul>
+        </div>
+
+        <div class="risk-card">
+            <h3>Nyckelfria lås</h3>
+            <p>
+                Tillgång till omsorgstagares bostäder sker digitalt.
+            </p>
+            <ul class="risk-list">
+                <li>Dörrar öppnas via TES mobil-app</li>
+                <li>Ingen fysisk nyckelhantering</li>
+                <li>Ökad säkerhet och kontroll</li>
+            </ul>
+        </div>
+
+    </section>
+</main>
+
+<footer>
+    <p>© 2025 Johanna Johansson – Ljusdals kommun</p>
+</footer>
+
+</body>
+</html>

@@ -12,6 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     <li><a href="treserva.html">Treserva-appen</a></li>
                     <li><a href="webben.html">Treserva i webben</a></li>
                     <li><a href="framtid.html">Framtiden</a></li>
+                    <li><a href="riskb.html">Riskbedömning</a></li>
                     
                 </ul>
             </nav>
