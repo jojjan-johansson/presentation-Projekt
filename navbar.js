@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     <li><a href="webben.html">Treserva i webben</a></li>
                     <li><a href="framtid.html">Framtiden</a></li>
                     <li><a href="riskb.html">Riskbedömning</a></li>
-                    
+                    <li><a href="support.html">Supportärenden</a></li>
                 </ul>
             </nav>
         </header>
